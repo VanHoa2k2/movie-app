@@ -1,0 +1,70 @@
+@media (max-width: 1023px) {
+    .Pricing-container {
+        flex-direction: column;
+    }
+
+    .background-Color-Main {
+        position: relative;
+        top: -2px;
+        height: auto;
+        padding-top: 0;
+        margin-right: 0;
+    }
+
+    .background-Color-secondary {
+        position: relative;
+        top: -2px;
+        height: auto;
+        padding-top: 0;
+        margin-right: 0;
+    }
+
+    .Pricing-container {
+        margin-top: 18px;
+    }
+
+    .Pricing-option1, .Pricing-option2, .Pricing-option3 {
+        width: 84vw;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .light-Theme1, .light-Theme2, .light-Theme3 {
+        width: 84vw;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .Pricing-option1 h2, .Pricing-option2 h2, .Pricing-option3 h2 {
+        font-size: 2.2rem;
+        margin-bottom: -16px;
+    }
+
+    .light-Theme1 h2, .light-Theme2 h2, .light-Theme3 h2 {
+        font-size: 2.2rem;
+        margin-bottom: -16px;
+    }
+
+    #button1 {
+        margin-top: 18px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .Pricing-yearly-darktheme {
+        margin-left: 26px;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+}

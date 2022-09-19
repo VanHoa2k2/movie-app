@@ -1,0 +1,74 @@
+.playerTrailer{
+    position: fixed!important;
+    top: 100px;
+    margin-left: 40px;
+    z-index:999;
+}
+.Container{
+    display: none;
+    position:absolute;
+    z-index: 100;
+}
+#TrailerMovie-name-dark{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: -100px;
+    font-size: 2.5rem;
+    color: #EE9B00;
+}
+#TrailerMovie-name-light{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: -100px;
+    font-size: 2.5rem;
+    color: #ff206e;
+}
+
+@media (max-width: 1023px) {
+    
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .player-content {
+        width: 730px!important;
+        height: 415px!important;
+    }
+
+    #ExitTrailer {
+        right: 38px!important;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .playerTrailer {
+        margin-left: 16px!important;
+        margin-top: 50px!important;
+    }
+
+    .player-content {
+        width: 340px!important;
+        height: 210px!important;
+    }
+
+    #TrailerMovie-name-dark {
+        font-size: 1rem!important;
+        top: -40px !important;
+    }
+
+    #TrailerMovie-name-light {
+        font-size: 1rem!important;
+        top: -40px !important;
+    }
+
+    #ExitTrailer {
+        top: 100px!important;
+        right: 28px!important;
+        width: 40px!important;
+    }
+}

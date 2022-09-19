@@ -1,0 +1,139 @@
+.hero-slide {
+    color: #fff;
+}
+
+.hero-slide__item {
+    padding: 9rem 0;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-slide__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);;
+}
+
+.hero-slide__item::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to top, #0f0f0f, rgba(0, 0, 0, 0));
+}
+
+.hero-slide__item__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 60px;
+}
+
+.hero-slide__item__content__info {
+    width: 55%;
+    padding: 0 3rem;
+    position: relative;
+    width: 100%;
+}
+
+.hero-slide__item__content__info > * ~ * {
+    margin-top: 3rem;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 4rem;
+}
+
+.overview {
+    font-weight: 700;
+}
+
+.btns > * ~ * {
+    margin-left: 1rem;
+}
+
+.hero-slide__item__content__poster {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.hero-slide__item__content__poster img {
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* button */
+button {
+    cursor: pointer;
+}
+
+.btn {
+    border: 4px solid transparent;
+    background-color: #ff0000;
+    color: #fff;
+    border-radius: 30px;
+    padding: 0.5rem 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    box-shadow: 0px 0px 7px 8px #ff00004d;
+    transition: box-shadow 0.3s ease;
+    position: relative;
+    width: 210px;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    box-shadow: 0px 0px 7px 15px #ff00004d;
+}
+
+.btn-outline {
+    border: 3px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    box-shadow: unset;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-outline:hover {
+    box-shadow: unset;
+    color: #ff0000;
+    background-color: #fff;
+}
+
+.btn.small {
+    border-width: 2px;
+    padding: 0.25rem 1.5rem;
+    font-size: 1rem;
+}
+
+/* custom arrow */
+.slick-next {
+    right: 76px;
+    top: 64px;
+    color: #fff;
+    opacity: 0.25;
+    width: 50px;
+    height: 50px;
+}
+
+.slick-next:hover {
+    color: #fff;
+    opacity: 0.7;
+}

@@ -1,0 +1,52 @@
+@media (max-width: 1023px) {
+    .hero-slide {
+        position: relative;
+        top: -2px;
+    }
+
+    .hero-slide__item__content {
+        align-items: initial;
+        justify-content: initial;
+    }
+
+    .btn-outline {
+        height: 46px;
+    }
+
+    .title {
+        margin-top: 0;
+    }
+
+    .hero-slide__item {
+        height: 710px;
+    }
+
+    .footer {
+        padding: 2rem 0;
+        top: -9px;
+    }
+
+    .footer__content__menu {
+        font-size: 0.8rem!important;
+        margin: 0 8px!important;
+    }
+
+    .footer__content__logo {
+        margin-bottom: 0.5rem;
+    }
+
+    .footer__content__logo h1 {
+        font-size: 1.7rem;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+}
+

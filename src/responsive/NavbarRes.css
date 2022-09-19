@@ -1,0 +1,105 @@
+/* Mobile & tablet */
+@media (max-width: 1023px) {
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .wrapper-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+
+    .menu-mobile-tablet {
+        position: absolute;
+        display: flex!important;
+        flex-direction: column;
+        top: 68px;
+        left: 0;
+        z-index: 999;
+        background-color: #000;
+        width: 100%;
+    }
+
+    .menu-item {
+        padding: 12px 40px;
+    }
+
+    .menu-item:hover {
+        background-color: rgb(59, 58, 58);        
+    }
+
+    .menu-item span {
+        margin-left: 0;
+    }
+    
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+
+    .appear-on-mobile-tablet {
+        display: block;
+    }
+
+    .Menu {
+        color: #fff;
+        margin-left: 26px;
+    }
+
+    .logo-app {
+        margin-left: 22px;
+        font-size: 1.6em;
+    }
+
+    #Color-switcher {
+        margin-right: 14px;
+        width: 72px;
+        height: 38px;
+    }
+
+    #Color-switcher-mover {
+        left: 2px;
+        top: 3px;
+        width: 34px;
+        height: 34px;
+    }
+
+    #Color-switcher-moved {
+        left: 35px;
+        top: 2px;
+        width: 34px;
+        height: 34px;
+    }
+
+    .search-mobile {
+        margin-right: 0!important;
+        border-radius: 0;
+        top: -10px;
+        border-radius: 0!important;
+    }
+
+    #search {
+        margin-left: -28px;
+        top: 75px;
+    }
+}
+
+/* Tablet */
+@media (min-width:740px) and (max-width: 1023px) {
+    .input-group input {
+        width: 720px;
+        height: 2.7vh;
+    }
+
+    #search {
+        top: 78px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+
+}
